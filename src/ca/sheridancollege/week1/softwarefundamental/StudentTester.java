@@ -12,14 +12,14 @@ package ca.sheridancollege.week1.softwarefundamental;
 public class StudentTester {
     public static void main(String[] args)
     {
-        Student1 s1=new Student1();
+        Student1 s1 = new Student1();
         s1.setName("Hamza");
         
         //Array of Student
-        Student1[] s=new Student1[5];
+        Student1[] s = new Student1[5];
         s[0]=s1;
         
-         Student1 s2=new Student1();
+         Student1 s2 = new Student1();
         s2.setName("Jatin");
         s[1]=s2;
         
